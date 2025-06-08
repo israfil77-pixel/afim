@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>For My Love ❤️</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      background: linear-gradient(135deg, #ffe6e6, #ffe0f7);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    .card {
+      background: white;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      max-width: 500px;
+      text-align: center;
+      animation: pop 1s ease;
+    }
+
+    h1 {
+      color: #ff4d6d;
+      font-size: 2.5em;
+    }
+
+    p {
+      font-size: 1.2em;
+      color: #333;
+      margin: 20px 0;
+    }
+
+    .heart {
+      font-size: 2em;
+      animation: beat 1s infinite;
+      color: #ff3366;
+    }
+
+    @keyframes beat {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+    }
+
+    @keyframes pop {
+      0% { transform: scale(0.7); opacity: 0; }
+      100% { transform: scale(1); opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Hey Babe ❤️</h1>
+    <p>I was just thinking...<br>
+    If I were a website, you'd be my favorite feature. 😉</p>
+    <p>You make my heart <span class="heart">💓</span> beat faster every time I see you.</p>
+    <p>You're cuter than every cat video on the internet!</p>
+    <p>Just wanted to say...<br><strong>I LOVE YOU 😘</strong></p>
+  </div>
+</body>
+</html>
